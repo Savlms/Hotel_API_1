@@ -12,6 +12,9 @@ app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 app.use(roomRouter)
 app.use(roomTypeRouter)
+app.get('/', (req, res) => {
+    res.send('Hello, welcome to Savlms hotel')
+})
 
 app.listen(port, () => {
     database()
