@@ -63,6 +63,4 @@ The API has two main routes:  Room and Room Type routes.
 
 
 
-# Github link : https://github.com/Savlms/Hotel_API_1.git
-
 # live link: https://hotel-api-1.onrender.com
