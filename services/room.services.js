@@ -13,7 +13,7 @@ class RoomServices {
     }
     //get all rooms
     async getAllRoom () {
-        const allRoom = await Room.find({})
+        const allRoom = await Room.findOne({})
         return allRoom
     }
     //get room with filter
