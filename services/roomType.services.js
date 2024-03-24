@@ -13,7 +13,7 @@ class RoomTypeServices {
     }
     //get room with filter
     async getRoomTypeByFilter (filter) {
-        const roomFilter = await Room.find(filter)
+        const roomFilter = await RoomType.find(filter)
         return roomFilter
     }
     //get all roomtype
